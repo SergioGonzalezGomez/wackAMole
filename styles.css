@@ -27,17 +27,18 @@ h1 {
 
 .score {
   background: rgb(53, 132, 159);
-  padding: 0 48px;
+  padding: 30px 48px;
   line-height: 1;
   border-radius: 16px;
   color: #fff;
   margin-left: 15px;
   border: 2px solid black;
+  align-self: center;
 }
 
 .game {
   width: 600px;
-  height: 400px;
+  height: 350px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -80,10 +81,9 @@ button {
   font-size: 35px;
   height: 70px;
   color: #fff;
-  background-color: rgb(53, 132, 159);
+  background-color: rgb(255, 188, 5);
   border-radius: 10px;
-  margin-left: 20px;
-  margin-top: 90px;
+  align-self: center;
   border: 2px solid black;
 }
 
@@ -93,7 +93,7 @@ button {
   }
   .score {
     background: blue;
-    padding: 0 12px;
+    
     line-height: 1;
     border-radius: 16px;
     color: #fff;
@@ -128,7 +128,7 @@ button {
   }
 
   button {
-    margin: 10px 10px 10px 10px;
+    
     height: 40px;
     width: 75px;
     font-size: 15px;
@@ -160,3 +160,19 @@ button {
     top: 50px;
   }
 }
+ .timer {
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+   justify-content: space-evenly;
+ }
+ .time {
+  background: rgb(53, 132, 159);
+  padding: 30px 48px;
+  line-height: 1;
+  border-radius: 16px;
+  color: #fff;
+  margin-left: 15px;
+  border: 2px solid black;
+  align-self: center;
+ }
