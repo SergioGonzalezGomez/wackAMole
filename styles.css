@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 html {
-  font-size: 35px;
+  font-size: 20px;
   background: #98bcf4;
   font-family: Calibri;  
   background-image: url("./images/background.jpg");
@@ -27,13 +27,15 @@ h1 {
 
 .score {
   background: rgb(53, 132, 159);
-  padding: 30px 48px;
+  padding: 15px;
   line-height: 1;
   border-radius: 16px;
   color: #fff;
   margin-left: 15px;
   border: 2px solid black;
   align-self: center;
+  
+  
 }
 
 .game {
@@ -48,6 +50,7 @@ h1 {
   flex: 1 0 33.33%;
   overflow: hidden;
   position: relative;
+  width: 15px;
 }
 
 .hole:after {
@@ -117,14 +120,14 @@ button {
 
   .score {
     width: 35px;
-    font-size: 15px;
+    font-size: 40px;
     height: 40px;
     color: #fff;
     background-color: blue;
     border-radius: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    padding: 5px;
+    padding: 15px 10px;
   }
 
   button {
@@ -165,14 +168,37 @@ button {
    flex-direction: row;
    align-content: center;
    justify-content: space-evenly;
+   
  }
  .time {
   background: rgb(53, 132, 159);
-  padding: 30px 48px;
-  line-height: 1;
+  padding: 15px 10px;
+  
   border-radius: 16px;
   color: #fff;
   margin-left: 15px;
   border: 2px solid black;
   align-self: center;
  }
+ @media (max-width: 1024px) {
+  .timer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    
+  }
+}
+
+@media (max-width: 1024px) {
+  .time {
+    background: rgb(53, 132, 159);
+    padding: 30px 48px;
+    
+    border-radius: 16px;
+    color: #fff;
+    margin-left: 15px;
+    border: 2px solid black;
+    align-self: center;
+   }
+}

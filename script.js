@@ -27,6 +27,7 @@ function randomHole(last) {
 function startGame() {
     scoreBoard.textContent = 0;
     timeUp = false;
+    time = 15;
     score = 0;
     peep();
     setTimeout(() => {
